@@ -1,0 +1,22 @@
+/* index-style.css - 15/03/2016 
+   Autor: Marcos Willian de Souza */
+#titulo{
+	font-style: italic;
+}
+#titulo,
+#post {
+	margin-left: 10px;
+}
+#data {
+	text-align: right;
+	padding: 10px 10px 10px 10px;
+}
+#imagem{
+	width: 100px
+}
+#autor_fonte ul li {
+	list-style-type:none;
+}
+span{
+	font-weight: bold;
+}

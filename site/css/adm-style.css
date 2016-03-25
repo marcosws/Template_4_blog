@@ -1,0 +1,22 @@
+/* adm-style.css - 15/03/2016 
+   Autor: Marcos Willian de Souza*/
+#formulario {
+	margin-left: 10px;
+}
+#formulario textarea,
+#formulario input {
+	background-color: #FFE7BA;
+	border: 1px solid #8B4513;
+	color: #8B4513;
+}
+#titulo,
+#subtitulo,
+#autor,
+#fonte,
+#imagem {
+	width: 650px;
+}
+#publicar {
+	width: 80px;
+	height: 30px;
+}

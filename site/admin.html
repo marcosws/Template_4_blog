@@ -1,0 +1,53 @@
+<!-- admin.html - BLOG - 15/03/2016 -->
+<!-- Autor: Marcos Willian de Souza -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="icon" href="img/blog1.ico" type="image/x-icon" />
+		<title>Blog - Administração</title>
+		<!-- Style Sheet CSS -->
+		<link rel="stylesheet" href="css/base-style.css" media="all" />
+		<link rel="stylesheet" href="css/adm-style.css" media="all" />
+		<!-- JQuery -->
+		<!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> ONLINE -->
+		<!-- <script src="js/jquery/jquery-1.12.1.js"></script> -->
+		<script src="js/jquery/jquery-2.2.1.js"></script>
+		<!-- JavaScript --->
+		<script src="js/form-js.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>Blog de TI - Administração</h1>
+			</header>
+			
+			<article>
+				<form method="POST" class="formulario" id="formulario" >
+					<p>Titulo:<br/>
+					<input type="text" class="input_text" id="subtitulo" />
+					</p>
+					<p>Subtitulo:<br/>
+					<input type="text" class="input_text" id="subtitulo" />
+					</p>
+					<p>Autor:<br/>
+					<input type="text" class="input_text" id="autor" />
+					</p>
+					<p>Fonte:<br/>
+					<input type="text" class="input_text" id="fonte" />
+					</p>
+					<p>Imagem:<br/>
+					<input type="file" class="input_file" id="imagem" />
+					<p>Artigo:<br/>
+					<textarea rows="10" cols="80" class="artigo" id="artigo" ></textarea>
+					</p>
+					<p><input type="button" value="Publicar" class="publicar" id="publicar" />
+				</form>
+			</article>
+			
+			<footer>
+				<p><small>Blog de TI - 2016<br/>Designed by: Marcos Willian de Souza</small></p>
+			</footer>
+		</div>
+	</body>
+</html>
